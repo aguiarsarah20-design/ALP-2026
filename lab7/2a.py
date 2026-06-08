@@ -8,4 +8,4 @@ while contador !=0:
         impares += 1
 contador +=1
 
-print(f"Quantidade de ímpares entre 1 e {N}: {impares}")
+print(f"Quantidade de ímpares entre 1 e (N): (impares)")
