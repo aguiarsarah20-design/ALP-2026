@@ -1,0 +1,16 @@
+soma = 0
+i = 0
+
+while i < 10:
+    print(i, soma)
+
+    i = i + 1
+
+    if i == 5:
+        break
+
+    soma = soma + i
+
+#i: 0,1,2,3,4
+#soma:0,1,3,6,10
+#repetição: 5
