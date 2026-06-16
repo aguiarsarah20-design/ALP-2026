@@ -1,0 +1,30 @@
+secreto = [2, 7, 8]
+
+for chance in range(1, 11):
+
+    #==== Chance ====
+
+    d1 = int(input("Primeiro dígito: "))
+    d2 = int(input("Segundo dígito: "))
+    d3 = int(input("Terceiro dígito: "))
+
+    palpite = [d1, d2, d3]
+
+    resposta = ""
+
+    for i in range(3):
+
+        if palpite[i] == secreto[i]:
+            resposta += "+"
+
+        elif palpite[i] in secreto:
+            resposta += "!"
+
+        else:
+            resposta += "_"
+
+    print("Saída:", resposta)
+
+    if resposta == "+++":
+        print("Parabéns! Você acertou!")
+        break
