@@ -1,0 +1,19 @@
+import random
+
+while True:
+    p = input("Deseja fazer uma pergunta? (s/n) ")
+
+    if p == "s":
+        prob = random.randint(1, 10)
+
+        if prob <= 5:
+            print("SIM")
+        else:
+            print("NÃO")
+
+    elif p == "n":
+        print("Até logo!")
+        break
+
+    else:
+        print("Resposta inválida")
