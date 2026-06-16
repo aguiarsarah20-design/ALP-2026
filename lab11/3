@@ -1,0 +1,28 @@
+import random
+import time
+
+while True:
+    r_usuario = input("Gostaria de fazer uma pergunta? ")
+
+    if r_usuario == "Não":
+        break
+
+    pergunta = input("Faça a sua pergunta: ")
+
+    prob = random.randint(1, 10)
+
+    if prob <= 5:
+        resposta = "SIM"
+    else:
+        resposta = "NÃO"
+
+    print("Consultando a bola mágica...")
+    time.sleep(2)
+
+    print("Pensando...")
+    time.sleep(2)
+
+    print("A resposta é...")
+    time.sleep(2)
+
+    print(resposta)
