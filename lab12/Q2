@@ -1,0 +1,21 @@
+# função input() recebe um valor digitado pelo usuário.
+nome = input("Digite seu nome: ")
+
+# função print() exibe informações na tela.
+print("Olá!")
+
+# função int() converte um valor para número inteiro.
+idade = int("16")
+
+# função float() converte um valor para número decimal.
+altura = float("1.65")
+
+# função str() converte um valor para texto.
+texto = str(123)
+
+# função type() retorna o tipo de dado de uma variável.
+tipo = type(10)
+
+# função range() gera uma sequência de números
+for i in range(5):
+    print(i)
