@@ -1,0 +1,16 @@
+import random
+import time
+
+n = random.randint(2, 10)
+
+time.sleep(n)
+
+print("AGORA!")
+
+inicio = time.time()
+
+input()
+
+fim = time.time()
+
+print("Você levou", fim - inicio, "segundos.")
