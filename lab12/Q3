@@ -1,0 +1,46 @@
+# Lê um valor do usuário sem conversão
+valor = input("Digite um valor: ")
+
+# Converte para inteiro
+valor_int = int(valor)
+
+# Converte para decimal
+valor_float = float(valor)
+
+# Converte para booleano
+valor_bool = bool(valor)
+
+print(valor_int)
+print(valor_float)
+print(valor_bool)
+
+print("------------------------------------")
+# Entrada: 10
+valor = "10"
+print(int(valor))
+print(float(valor))
+print(bool(valor))
+
+# Entrada: 3.5
+valor = "3.5"
+# print(int(valor))  # erro
+print(float(valor))
+print(bool(valor))
+
+# Entrada: -2.5
+valor = "-2.5"
+# print(int(valor))  # erro
+print(float(valor))
+print(bool(valor))
+
+# Entrada: palavra
+valor = "palavra"
+# print(int(valor))  # erro
+# print(float(valor))  # erro
+print(bool(valor))
+
+# Entrada: False
+valor = "False"
+# print(int(valor))  # erro
+# print(float(valor))  # erro
+print(bool(valor))
