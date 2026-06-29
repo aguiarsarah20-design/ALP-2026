@@ -1,0 +1,17 @@
+import datetime
+nome1= input('Digite o nome da primeira pessoa:')
+data_str1=input('Digite a data de nascimento( dd/mm/aaaa ):')
+data1 = datetime.datetime.strptime(data_str1, "%d/%m/%Y")
+
+nome2 = input("Digite o nome da segunda pessoa: ")
+data_str2 = input("Digite a data de nascimento (dd/mm/aaaa): ")
+data2 = datetime.datetime.strptime(data_str2, "%d/%m/%Y")
+
+if data1<data2:
+    print(nome1, "é a pessoa mais velha.")
+
+elif data1>data2: 
+    print(nome2, 'é a pessoa mais velha.')
+    
+else:
+    print("As duas pessoas tem a mesma idade")
